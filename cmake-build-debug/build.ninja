@@ -124,7 +124,7 @@ build PROJECT_NAME: CXX_EXECUTABLE_LINKER__PROJECT_NAME_Debug CMakeFiles/PROJECT
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2
   LINK_LIBRARIES = -lSDL2  -lSDL2main  -lSDL2_image
   OBJECT_DIR = CMakeFiles/PROJECT_NAME.dir
-  POST_BUILD = :
+  POST_BUILD = cd /Users/akramkaffal/Downloads/group5Project-master/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E copy_if_different /Users/akramkaffal/Downloads/group5Project-master/SDL2/x86_64-w64-mingw32/bin/SDL2.dll /Users/akramkaffal/Downloads/group5Project-master/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E copy_if_different /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/bin/SDL2_image.dll /Users/akramkaffal/Downloads/group5Project-master/cmake-build-debug
   PRE_LINK = :
   TARGET_FILE = PROJECT_NAME
   TARGET_PDB = PROJECT_NAME.dbg

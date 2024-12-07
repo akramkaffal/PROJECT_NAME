@@ -1,9 +1,9 @@
 # ninja log v6
-418	504	1733581948617098749	CMakeFiles/PROJECT_NAME.dir/scripts/UI.cpp.o	7ffaf81f2fccd381
 57	377	1733581948255558117	CMakeFiles/PROJECT_NAME.dir/scripts/Menu.cpp.o	195abb44dd0c4964
+4	418	1733581948202823345	CMakeFiles/PROJECT_NAME.dir/scripts/Background.cpp.o	cda9fb75cbddad39
 377	635	1733581948575705142	CMakeFiles/PROJECT_NAME.dir/scripts/MenuOption.cpp.o	b64803949cd9a0f9
 4	57	1733581948202700679	CMakeFiles/PROJECT_NAME.dir/scripts/PowerUp.cpp.o	996f5ae75c34defa
-4	418	1733581948202823345	CMakeFiles/PROJECT_NAME.dir/scripts/Background.cpp.o	cda9fb75cbddad39
+418	504	1733581948617098749	CMakeFiles/PROJECT_NAME.dir/scripts/UI.cpp.o	7ffaf81f2fccd381
 4	447	1733581948202441639	CMakeFiles/PROJECT_NAME.dir/scripts/Avatar.cpp.o	1c9b4996ad45a418
 6	33	1733174829638074632	SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_WIC.c.o	aaaff7c5a6cf3cad
 128	217	1733174829760965803	SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_pnm.c.o	54b2463b9b41b5ff

@@ -21,12 +21,19 @@ add_executable(${PROJECT_NAME} scripts/main.cpp scripts/Game.cpp scripts/Avatar.
 include_directories(${CMAKE_SOURCE_DIR}/SDL2/x86_64-w64-mingw32/include/SDL2)
 include_directories(${CMAKE_SOURCE_DIR}/SDL2_image/include)
 
-# Link directories for SDL2 and SDL2_image
+# Add library directories for SDL2 and SDL2_image
 link_directories(${CMAKE_SOURCE_DIR}/SDL2/x86_64-w64-mingw32/lib)
 link_directories(${CMAKE_SOURCE_DIR}/SDL2_image/lib)
 
-# Link libraries
+# Link SDL2 and SDL2_image
 target_link_libraries(${PROJECT_NAME} SDL2 SDL2main SDL2_image)
+
+add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+        ${CMAKE_SOURCE_DIR}/SDL2/x86_64-w64-mingw32/bin/SDL2.dll $<TARGET_FILE_DIR:${PROJECT_NAME}>
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+        ${CMAKE_SOURCE_DIR}/SDL2_image/bin/SDL2_image.dll $<TARGET_FILE_DIR:${PROJECT_NAME}>
+)
 
 # Copy assets and DLLs for portability on Windows
 if (WIN32)
