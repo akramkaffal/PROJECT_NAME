@@ -1,0 +1,6 @@
+/Users/akramkaffal/Downloads/group5Project-master/cmake-build-debug/CMakeFiles/PROJECT_NAME.dir
+/Users/akramkaffal/Downloads/group5Project-master/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/akramkaffal/Downloads/group5Project-master/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/akramkaffal/Downloads/group5Project-master/cmake-build-debug/SDL2_image/CMakeFiles/SDL2_image.dir
+/Users/akramkaffal/Downloads/group5Project-master/cmake-build-debug/SDL2_image/CMakeFiles/edit_cache.dir
+/Users/akramkaffal/Downloads/group5Project-master/cmake-build-debug/SDL2_image/CMakeFiles/rebuild_cache.dir
