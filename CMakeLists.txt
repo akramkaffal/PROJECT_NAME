@@ -17,24 +17,29 @@ add_executable(${PROJECT_NAME} scripts/main.cpp scripts/Game.cpp scripts/Avatar.
         scripts/UI.h)
 
 # --- SDL2 SETUP ---
-
-# Add SDL2_image as a subdirectory
-add_subdirectory(SDL2_image)
-
 # Include directories for SDL2 and SDL2_image
-include_directories(SDL2_image/include)
+include_directories(${CMAKE_SOURCE_DIR}/SDL2/x86_64-w64-mingw32/include/SDL2)
+include_directories(${CMAKE_SOURCE_DIR}/SDL2_image/include)
 
-set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake/modules)
-set(SDL2_PATH "SDL2/x86_64-w64-mingw32")
+# Link directories for SDL2 and SDL2_image
+link_directories(${CMAKE_SOURCE_DIR}/SDL2/x86_64-w64-mingw32/lib)
+link_directories(${CMAKE_SOURCE_DIR}/SDL2_image/lib)
 
-find_package(SDL2 REQUIRED)
-include_directories(${SDL2_INCLUDE_DIR})
-target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARY} ${SDL2_IMAGE_LIBRARIES})
+# Link libraries
+target_link_libraries(${PROJECT_NAME} SDL2 SDL2main SDL2_image)
 
-# Link SDL2_image dynamically
-target_link_libraries(PROJECT_NAME SDL2_image)
-
-add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
-        COMMAND ${CMAKE_COMMAND} -E copy_directory
-        ${CMAKE_SOURCE_DIR}/assets $<TARGET_FILE_DIR:${PROJECT_NAME}>/assets
-)
+# Copy assets and DLLs for portability on Windows
+if (WIN32)
+    add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
+            COMMAND ${CMAKE_COMMAND} -E copy_directory
+            ${CMAKE_SOURCE_DIR}/assets $<TARGET_FILE_DIR:${PROJECT_NAME}>/assets
+            COMMAND ${CMAKE_COMMAND} -E copy_if_different
+            ${CMAKE_SOURCE_DIR}/SDL2/x86_64-w64-mingw32/bin/SDL2.dll $<TARGET_FILE_DIR:${PROJECT_NAME}>
+            COMMAND ${CMAKE_COMMAND} -E copy_if_different
+            ${CMAKE_SOURCE_DIR}/SDL2_image/lib/SDL2_image.dll $<TARGET_FILE_DIR:${PROJECT_NAME}>
+    )
+endif()
+message("SDL2 Include: ${CMAKE_SOURCE_DIR}/SDL2/x86_64-w64-mingw32/include/SDL2")
+message("SDL2_image Include: ${CMAKE_SOURCE_DIR}/SDL2_image/include")
+message("SDL2 Link Directory: ${CMAKE_SOURCE_DIR}/SDL2/x86_64-w64-mingw32/lib")
+message("SDL2_image Link Directory: ${CMAKE_SOURCE_DIR}/SDL2_image/lib")

@@ -638,7 +638,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -693,7 +693,7 @@ SDL2IMAGE_DEBUG_POSTFIX-ADVANCED:INTERNAL=1
 SDL2_IMAGE_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: SDL2_IMAGE_LIBRARY
 SDL2_IMAGE_LIBRARY-ADVANCED:INTERNAL=1
-SDL2_LIBRARY_TEMP:INTERNAL=/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2.dylib;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa
+SDL2_LIBRARY_TEMP:INTERNAL=/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2main.a;/opt/homebrew/lib/libSDL2.dylib;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
 

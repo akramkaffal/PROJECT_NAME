@@ -47,68 +47,68 @@ cmake_ninja_workdir = /Users/akramkaffal/Downloads/group5Project-master/cmake-bu
 #############################################
 # Order-only phony target for PROJECT_NAME
 
-build cmake_object_order_depends_target_PROJECT_NAME: phony || cmake_object_order_depends_target_SDL2_image
+build cmake_object_order_depends_target_PROJECT_NAME: phony || .
 
 build CMakeFiles/PROJECT_NAME.dir/scripts/main.cpp.o: CXX_COMPILER__PROJECT_NAME_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/scripts/main.cpp || cmake_object_order_depends_target_PROJECT_NAME
   DEP_FILE = CMakeFiles/PROJECT_NAME.dir/scripts/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIE -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -I/opt/homebrew/include/SDL2
+  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2/x86_64-w64-mingw32/include/SDL2 -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include
   OBJECT_DIR = CMakeFiles/PROJECT_NAME.dir
   OBJECT_FILE_DIR = CMakeFiles/PROJECT_NAME.dir/scripts
 
 build CMakeFiles/PROJECT_NAME.dir/scripts/Game.cpp.o: CXX_COMPILER__PROJECT_NAME_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/scripts/Game.cpp || cmake_object_order_depends_target_PROJECT_NAME
   DEP_FILE = CMakeFiles/PROJECT_NAME.dir/scripts/Game.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIE -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -I/opt/homebrew/include/SDL2
+  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2/x86_64-w64-mingw32/include/SDL2 -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include
   OBJECT_DIR = CMakeFiles/PROJECT_NAME.dir
   OBJECT_FILE_DIR = CMakeFiles/PROJECT_NAME.dir/scripts
 
 build CMakeFiles/PROJECT_NAME.dir/scripts/Avatar.cpp.o: CXX_COMPILER__PROJECT_NAME_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/scripts/Avatar.cpp || cmake_object_order_depends_target_PROJECT_NAME
   DEP_FILE = CMakeFiles/PROJECT_NAME.dir/scripts/Avatar.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIE -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -I/opt/homebrew/include/SDL2
+  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2/x86_64-w64-mingw32/include/SDL2 -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include
   OBJECT_DIR = CMakeFiles/PROJECT_NAME.dir
   OBJECT_FILE_DIR = CMakeFiles/PROJECT_NAME.dir/scripts
 
 build CMakeFiles/PROJECT_NAME.dir/scripts/Hazard.cpp.o: CXX_COMPILER__PROJECT_NAME_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/scripts/Hazard.cpp || cmake_object_order_depends_target_PROJECT_NAME
   DEP_FILE = CMakeFiles/PROJECT_NAME.dir/scripts/Hazard.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIE -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -I/opt/homebrew/include/SDL2
+  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2/x86_64-w64-mingw32/include/SDL2 -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include
   OBJECT_DIR = CMakeFiles/PROJECT_NAME.dir
   OBJECT_FILE_DIR = CMakeFiles/PROJECT_NAME.dir/scripts
 
 build CMakeFiles/PROJECT_NAME.dir/scripts/PowerUp.cpp.o: CXX_COMPILER__PROJECT_NAME_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/scripts/PowerUp.cpp || cmake_object_order_depends_target_PROJECT_NAME
   DEP_FILE = CMakeFiles/PROJECT_NAME.dir/scripts/PowerUp.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIE -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -I/opt/homebrew/include/SDL2
+  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2/x86_64-w64-mingw32/include/SDL2 -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include
   OBJECT_DIR = CMakeFiles/PROJECT_NAME.dir
   OBJECT_FILE_DIR = CMakeFiles/PROJECT_NAME.dir/scripts
 
 build CMakeFiles/PROJECT_NAME.dir/scripts/Background.cpp.o: CXX_COMPILER__PROJECT_NAME_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/scripts/Background.cpp || cmake_object_order_depends_target_PROJECT_NAME
   DEP_FILE = CMakeFiles/PROJECT_NAME.dir/scripts/Background.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIE -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -I/opt/homebrew/include/SDL2
+  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2/x86_64-w64-mingw32/include/SDL2 -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include
   OBJECT_DIR = CMakeFiles/PROJECT_NAME.dir
   OBJECT_FILE_DIR = CMakeFiles/PROJECT_NAME.dir/scripts
 
 build CMakeFiles/PROJECT_NAME.dir/scripts/Menu.cpp.o: CXX_COMPILER__PROJECT_NAME_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/scripts/Menu.cpp || cmake_object_order_depends_target_PROJECT_NAME
   DEP_FILE = CMakeFiles/PROJECT_NAME.dir/scripts/Menu.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIE -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -I/opt/homebrew/include/SDL2
+  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2/x86_64-w64-mingw32/include/SDL2 -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include
   OBJECT_DIR = CMakeFiles/PROJECT_NAME.dir
   OBJECT_FILE_DIR = CMakeFiles/PROJECT_NAME.dir/scripts
 
 build CMakeFiles/PROJECT_NAME.dir/scripts/MenuOption.cpp.o: CXX_COMPILER__PROJECT_NAME_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/scripts/MenuOption.cpp || cmake_object_order_depends_target_PROJECT_NAME
   DEP_FILE = CMakeFiles/PROJECT_NAME.dir/scripts/MenuOption.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIE -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -I/opt/homebrew/include/SDL2
+  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2/x86_64-w64-mingw32/include/SDL2 -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include
   OBJECT_DIR = CMakeFiles/PROJECT_NAME.dir
   OBJECT_FILE_DIR = CMakeFiles/PROJECT_NAME.dir/scripts
 
 build CMakeFiles/PROJECT_NAME.dir/scripts/UI.cpp.o: CXX_COMPILER__PROJECT_NAME_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/scripts/UI.cpp || cmake_object_order_depends_target_PROJECT_NAME
   DEP_FILE = CMakeFiles/PROJECT_NAME.dir/scripts/UI.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIE -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -I/opt/homebrew/include/SDL2
+  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2/x86_64-w64-mingw32/include/SDL2 -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include
   OBJECT_DIR = CMakeFiles/PROJECT_NAME.dir
   OBJECT_FILE_DIR = CMakeFiles/PROJECT_NAME.dir/scripts
 
@@ -120,11 +120,11 @@ build CMakeFiles/PROJECT_NAME.dir/scripts/UI.cpp.o: CXX_COMPILER__PROJECT_NAME_u
 #############################################
 # Link the executable PROJECT_NAME
 
-build PROJECT_NAME: CXX_EXECUTABLE_LINKER__PROJECT_NAME_Debug CMakeFiles/PROJECT_NAME.dir/scripts/main.cpp.o CMakeFiles/PROJECT_NAME.dir/scripts/Game.cpp.o CMakeFiles/PROJECT_NAME.dir/scripts/Avatar.cpp.o CMakeFiles/PROJECT_NAME.dir/scripts/Hazard.cpp.o CMakeFiles/PROJECT_NAME.dir/scripts/PowerUp.cpp.o CMakeFiles/PROJECT_NAME.dir/scripts/Background.cpp.o CMakeFiles/PROJECT_NAME.dir/scripts/Menu.cpp.o CMakeFiles/PROJECT_NAME.dir/scripts/MenuOption.cpp.o CMakeFiles/PROJECT_NAME.dir/scripts/UI.cpp.o | /opt/homebrew/lib/libSDL2main.a /opt/homebrew/lib/libSDL2.dylib SDL2_image/libSDL2_image-2.0d.801.2.0.dylib || SDL2_image/libSDL2_image-2.0d.dylib SDL2_image/libSDL2_image-2.0d.dylib
+build PROJECT_NAME: CXX_EXECUTABLE_LINKER__PROJECT_NAME_Debug CMakeFiles/PROJECT_NAME.dir/scripts/main.cpp.o CMakeFiles/PROJECT_NAME.dir/scripts/Game.cpp.o CMakeFiles/PROJECT_NAME.dir/scripts/Avatar.cpp.o CMakeFiles/PROJECT_NAME.dir/scripts/Hazard.cpp.o CMakeFiles/PROJECT_NAME.dir/scripts/PowerUp.cpp.o CMakeFiles/PROJECT_NAME.dir/scripts/Background.cpp.o CMakeFiles/PROJECT_NAME.dir/scripts/Menu.cpp.o CMakeFiles/PROJECT_NAME.dir/scripts/MenuOption.cpp.o CMakeFiles/PROJECT_NAME.dir/scripts/UI.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2
-  LINK_LIBRARIES = -Wl,-rpath,/Users/akramkaffal/Downloads/group5Project-master/cmake-build-debug/SDL2_image  /opt/homebrew/lib/libSDL2main.a  /opt/homebrew/lib/libSDL2.dylib  -framework Cocoa  SDL2_image/libSDL2_image-2.0d.801.2.0.dylib
+  LINK_LIBRARIES = -lSDL2  -lSDL2main  -lSDL2_image
   OBJECT_DIR = CMakeFiles/PROJECT_NAME.dir
-  POST_BUILD = cd /Users/akramkaffal/Downloads/group5Project-master/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E copy_directory /Users/akramkaffal/Downloads/group5Project-master/assets /Users/akramkaffal/Downloads/group5Project-master/cmake-build-debug/assets
+  POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = PROJECT_NAME
   TARGET_PDB = PROJECT_NAME.dbg
@@ -153,246 +153,7 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
-# Write statements declared in CMakeLists.txt:
-# /Users/akramkaffal/Downloads/group5Project-master/CMakeLists.txt
-# =============================================================================
-
-# =============================================================================
-# Object build statements for SHARED_LIBRARY target SDL2_image
-
-
-#############################################
-# Order-only phony target for SDL2_image
-
-build cmake_object_order_depends_target_SDL2_image: phony || .
-
-build SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG.c.o: C_COMPILER__SDL2_image_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/src/IMG.c || cmake_object_order_depends_target_SDL2_image
-  DEFINES = -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MICRO_VERSION=2 -DSDL_BUILD_MINOR_VERSION=8 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE
-  DEP_FILE = SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -fvisibility=hidden -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  OBJECT_FILE_DIR = SDL2_image/CMakeFiles/SDL2_image.dir/src
-
-build SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_WIC.c.o: C_COMPILER__SDL2_image_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/src/IMG_WIC.c || cmake_object_order_depends_target_SDL2_image
-  DEFINES = -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MICRO_VERSION=2 -DSDL_BUILD_MINOR_VERSION=8 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE
-  DEP_FILE = SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_WIC.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -fvisibility=hidden -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  OBJECT_FILE_DIR = SDL2_image/CMakeFiles/SDL2_image.dir/src
-
-build SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_avif.c.o: C_COMPILER__SDL2_image_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/src/IMG_avif.c || cmake_object_order_depends_target_SDL2_image
-  DEFINES = -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MICRO_VERSION=2 -DSDL_BUILD_MINOR_VERSION=8 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE
-  DEP_FILE = SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_avif.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -fvisibility=hidden -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  OBJECT_FILE_DIR = SDL2_image/CMakeFiles/SDL2_image.dir/src
-
-build SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_bmp.c.o: C_COMPILER__SDL2_image_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/src/IMG_bmp.c || cmake_object_order_depends_target_SDL2_image
-  DEFINES = -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MICRO_VERSION=2 -DSDL_BUILD_MINOR_VERSION=8 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE
-  DEP_FILE = SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_bmp.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -fvisibility=hidden -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  OBJECT_FILE_DIR = SDL2_image/CMakeFiles/SDL2_image.dir/src
-
-build SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_gif.c.o: C_COMPILER__SDL2_image_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/src/IMG_gif.c || cmake_object_order_depends_target_SDL2_image
-  DEFINES = -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MICRO_VERSION=2 -DSDL_BUILD_MINOR_VERSION=8 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE
-  DEP_FILE = SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_gif.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -fvisibility=hidden -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  OBJECT_FILE_DIR = SDL2_image/CMakeFiles/SDL2_image.dir/src
-
-build SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_jpg.c.o: C_COMPILER__SDL2_image_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/src/IMG_jpg.c || cmake_object_order_depends_target_SDL2_image
-  DEFINES = -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MICRO_VERSION=2 -DSDL_BUILD_MINOR_VERSION=8 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE
-  DEP_FILE = SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_jpg.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -fvisibility=hidden -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  OBJECT_FILE_DIR = SDL2_image/CMakeFiles/SDL2_image.dir/src
-
-build SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_jxl.c.o: C_COMPILER__SDL2_image_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/src/IMG_jxl.c || cmake_object_order_depends_target_SDL2_image
-  DEFINES = -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MICRO_VERSION=2 -DSDL_BUILD_MINOR_VERSION=8 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE
-  DEP_FILE = SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_jxl.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -fvisibility=hidden -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  OBJECT_FILE_DIR = SDL2_image/CMakeFiles/SDL2_image.dir/src
-
-build SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_lbm.c.o: C_COMPILER__SDL2_image_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/src/IMG_lbm.c || cmake_object_order_depends_target_SDL2_image
-  DEFINES = -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MICRO_VERSION=2 -DSDL_BUILD_MINOR_VERSION=8 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE
-  DEP_FILE = SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_lbm.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -fvisibility=hidden -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  OBJECT_FILE_DIR = SDL2_image/CMakeFiles/SDL2_image.dir/src
-
-build SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_pcx.c.o: C_COMPILER__SDL2_image_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/src/IMG_pcx.c || cmake_object_order_depends_target_SDL2_image
-  DEFINES = -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MICRO_VERSION=2 -DSDL_BUILD_MINOR_VERSION=8 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE
-  DEP_FILE = SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_pcx.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -fvisibility=hidden -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  OBJECT_FILE_DIR = SDL2_image/CMakeFiles/SDL2_image.dir/src
-
-build SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_png.c.o: C_COMPILER__SDL2_image_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/src/IMG_png.c || cmake_object_order_depends_target_SDL2_image
-  DEFINES = -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MICRO_VERSION=2 -DSDL_BUILD_MINOR_VERSION=8 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE
-  DEP_FILE = SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_png.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -fvisibility=hidden -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  OBJECT_FILE_DIR = SDL2_image/CMakeFiles/SDL2_image.dir/src
-
-build SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_pnm.c.o: C_COMPILER__SDL2_image_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/src/IMG_pnm.c || cmake_object_order_depends_target_SDL2_image
-  DEFINES = -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MICRO_VERSION=2 -DSDL_BUILD_MINOR_VERSION=8 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE
-  DEP_FILE = SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_pnm.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -fvisibility=hidden -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  OBJECT_FILE_DIR = SDL2_image/CMakeFiles/SDL2_image.dir/src
-
-build SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_qoi.c.o: C_COMPILER__SDL2_image_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/src/IMG_qoi.c || cmake_object_order_depends_target_SDL2_image
-  DEFINES = -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MICRO_VERSION=2 -DSDL_BUILD_MINOR_VERSION=8 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE
-  DEP_FILE = SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_qoi.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -fvisibility=hidden -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  OBJECT_FILE_DIR = SDL2_image/CMakeFiles/SDL2_image.dir/src
-
-build SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_stb.c.o: C_COMPILER__SDL2_image_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/src/IMG_stb.c || cmake_object_order_depends_target_SDL2_image
-  DEFINES = -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MICRO_VERSION=2 -DSDL_BUILD_MINOR_VERSION=8 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE
-  DEP_FILE = SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_stb.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -fvisibility=hidden -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  OBJECT_FILE_DIR = SDL2_image/CMakeFiles/SDL2_image.dir/src
-
-build SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_svg.c.o: C_COMPILER__SDL2_image_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/src/IMG_svg.c || cmake_object_order_depends_target_SDL2_image
-  DEFINES = -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MICRO_VERSION=2 -DSDL_BUILD_MINOR_VERSION=8 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE
-  DEP_FILE = SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_svg.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -fvisibility=hidden -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  OBJECT_FILE_DIR = SDL2_image/CMakeFiles/SDL2_image.dir/src
-
-build SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_tga.c.o: C_COMPILER__SDL2_image_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/src/IMG_tga.c || cmake_object_order_depends_target_SDL2_image
-  DEFINES = -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MICRO_VERSION=2 -DSDL_BUILD_MINOR_VERSION=8 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE
-  DEP_FILE = SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_tga.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -fvisibility=hidden -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  OBJECT_FILE_DIR = SDL2_image/CMakeFiles/SDL2_image.dir/src
-
-build SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_tif.c.o: C_COMPILER__SDL2_image_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/src/IMG_tif.c || cmake_object_order_depends_target_SDL2_image
-  DEFINES = -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MICRO_VERSION=2 -DSDL_BUILD_MINOR_VERSION=8 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE
-  DEP_FILE = SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_tif.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -fvisibility=hidden -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  OBJECT_FILE_DIR = SDL2_image/CMakeFiles/SDL2_image.dir/src
-
-build SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_webp.c.o: C_COMPILER__SDL2_image_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/src/IMG_webp.c || cmake_object_order_depends_target_SDL2_image
-  DEFINES = -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MICRO_VERSION=2 -DSDL_BUILD_MINOR_VERSION=8 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE
-  DEP_FILE = SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_webp.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -fvisibility=hidden -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  OBJECT_FILE_DIR = SDL2_image/CMakeFiles/SDL2_image.dir/src
-
-build SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_xcf.c.o: C_COMPILER__SDL2_image_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/src/IMG_xcf.c || cmake_object_order_depends_target_SDL2_image
-  DEFINES = -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MICRO_VERSION=2 -DSDL_BUILD_MINOR_VERSION=8 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE
-  DEP_FILE = SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_xcf.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -fvisibility=hidden -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  OBJECT_FILE_DIR = SDL2_image/CMakeFiles/SDL2_image.dir/src
-
-build SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_xpm.c.o: C_COMPILER__SDL2_image_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/src/IMG_xpm.c || cmake_object_order_depends_target_SDL2_image
-  DEFINES = -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MICRO_VERSION=2 -DSDL_BUILD_MINOR_VERSION=8 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE
-  DEP_FILE = SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_xpm.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -fvisibility=hidden -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  OBJECT_FILE_DIR = SDL2_image/CMakeFiles/SDL2_image.dir/src
-
-build SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_xv.c.o: C_COMPILER__SDL2_image_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/src/IMG_xv.c || cmake_object_order_depends_target_SDL2_image
-  DEFINES = -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MICRO_VERSION=2 -DSDL_BUILD_MINOR_VERSION=8 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE
-  DEP_FILE = SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_xv.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -fvisibility=hidden -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  OBJECT_FILE_DIR = SDL2_image/CMakeFiles/SDL2_image.dir/src
-
-build SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_ImageIO.m.o: C_COMPILER__SDL2_image_unscanned_Debug /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/src/IMG_ImageIO.m || cmake_object_order_depends_target_SDL2_image
-  DEFINES = -DBUILD_SDL -DDLL_EXPORT -DLOAD_BMP -DLOAD_GIF -DLOAD_JPG -DLOAD_LBM -DLOAD_PCX -DLOAD_PNG -DLOAD_PNM -DLOAD_QOI -DLOAD_SVG -DLOAD_TGA -DLOAD_XCF -DLOAD_XPM -DLOAD_XV -DSDL_BUILD_MAJOR_VERSION=2 -DSDL_BUILD_MICRO_VERSION=2 -DSDL_BUILD_MINOR_VERSION=8 -DSDL_IMAGE_SAVE_JPG=1 -DSDL_IMAGE_SAVE_PNG=1 -DUSE_STBIMAGE
-  DEP_FILE = SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_ImageIO.m.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -fvisibility=hidden -fcolor-diagnostics
-  INCLUDES = -I/Users/akramkaffal/Downloads/group5Project-master/SDL2_image/include -isystem /opt/homebrew/Cellar/sdl2/2.30.9/include/SDL2
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  OBJECT_FILE_DIR = SDL2_image/CMakeFiles/SDL2_image.dir/src
-
-
-# =============================================================================
-# Link build statements for SHARED_LIBRARY target SDL2_image
-
-
-#############################################
-# Link the shared library SDL2_image/libSDL2_image-2.0d.801.2.0.dylib
-
-build SDL2_image/libSDL2_image-2.0d.801.2.0.dylib: C_SHARED_LIBRARY_LINKER__SDL2_image_Debug SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG.c.o SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_WIC.c.o SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_avif.c.o SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_bmp.c.o SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_gif.c.o SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_jpg.c.o SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_jxl.c.o SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_lbm.c.o SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_pcx.c.o SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_png.c.o SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_pnm.c.o SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_qoi.c.o SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_stb.c.o SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_svg.c.o SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_tga.c.o SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_tif.c.o SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_webp.c.o SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_xcf.c.o SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_xpm.c.o SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_xv.c.o SDL2_image/CMakeFiles/SDL2_image.dir/src/IMG_ImageIO.m.o | /opt/homebrew/Cellar/sdl2/2.30.9/lib/libSDL2.dylib
-  ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2
-  INSTALLNAME_DIR = @rpath/
-  LANGUAGE_COMPILE_FLAGS = -g
-  LINK_FLAGS = -Wl,-undefined,error -compatibility_version 801.0.0 -current_version 801.2.0
-  LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/Cellar/sdl2/2.30.9/lib  /opt/homebrew/Cellar/sdl2/2.30.9/lib/libSDL2.dylib  -Wl,-framework,ApplicationServices  -lobjc
-  LINK_PATH = -L/opt/homebrew/Cellar/sdl2/2.30.9/lib
-  OBJECT_DIR = SDL2_image/CMakeFiles/SDL2_image.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  SONAME = libSDL2_image-2.0d.801.0.0.dylib
-  SONAME_FLAG = -install_name
-  TARGET_FILE = SDL2_image/libSDL2_image-2.0d.801.2.0.dylib
-  TARGET_PDB = SDL2_image-2.0d.dylib.dbg
-
-
-#############################################
-# Create library symlink SDL2_image/libSDL2_image-2.0d.dylib
-
-build SDL2_image/libSDL2_image-2.0d.801.0.0.dylib SDL2_image/libSDL2_image-2.0d.dylib: CMAKE_SYMLINK_LIBRARY SDL2_image/libSDL2_image-2.0d.801.2.0.dylib
-  POST_BUILD = cd /Users/akramkaffal/Downloads/group5Project-master/cmake-build-debug/SDL2_image && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E create_symlink libSDL2_image-2.0d.801.0.0.dylib libSDL2_imaged.dylib
-
-
-#############################################
-# Utility command for edit_cache
-
-build SDL2_image/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/akramkaffal/Downloads/group5Project-master/cmake-build-debug/SDL2_image && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build SDL2_image/edit_cache: phony SDL2_image/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build SDL2_image/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/akramkaffal/Downloads/group5Project-master/cmake-build-debug/SDL2_image && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/akramkaffal/Downloads/group5Project-master -B/Users/akramkaffal/Downloads/group5Project-master/cmake-build-debug
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build SDL2_image/rebuild_cache: phony SDL2_image/CMakeFiles/rebuild_cache.util
-
-# =============================================================================
 # Target aliases.
-
-build SDL2_image: phony SDL2_image/libSDL2_image-2.0d.dylib
-
-build libSDL2_image-2.0d.dylib: phony SDL2_image/libSDL2_image-2.0d.dylib
 
 # =============================================================================
 # Folder targets.
@@ -402,14 +163,7 @@ build libSDL2_image-2.0d.dylib: phony SDL2_image/libSDL2_image-2.0d.dylib
 #############################################
 # Folder: /Users/akramkaffal/Downloads/group5Project-master/cmake-build-debug
 
-build all: phony PROJECT_NAME SDL2_image/all
-
-# =============================================================================
-
-#############################################
-# Folder: /Users/akramkaffal/Downloads/group5Project-master/cmake-build-debug/SDL2_image
-
-build SDL2_image/all: phony SDL2_image/libSDL2_image-2.0d.dylib
+build all: phony PROJECT_NAME
 
 # =============================================================================
 # Built-in targets
@@ -418,14 +172,14 @@ build SDL2_image/all: phony SDL2_image/libSDL2_image-2.0d.dylib
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FeatureSummary.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake /Users/akramkaffal/Downloads/group5Project-master/CMakeLists.txt /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/CMakeLists.txt /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/cmake/PrivateSdlFunctions.cmake /Users/akramkaffal/Downloads/group5Project-master/cmake/modules/FindSDL2.cmake /opt/homebrew/lib/cmake/SDL2/sdl2-config-version.cmake /opt/homebrew/lib/cmake/SDL2/sdl2-config.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /Users/akramkaffal/Downloads/group5Project-master/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FeatureSummary.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake /Users/akramkaffal/Downloads/group5Project-master/CMakeLists.txt /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/CMakeLists.txt /Users/akramkaffal/Downloads/group5Project-master/SDL2_image/cmake/PrivateSdlFunctions.cmake /Users/akramkaffal/Downloads/group5Project-master/cmake/modules/FindSDL2.cmake /opt/homebrew/lib/cmake/SDL2/sdl2-config-version.cmake /opt/homebrew/lib/cmake/SDL2/sdl2-config.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /Users/akramkaffal/Downloads/group5Project-master/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
 
 
 #############################################
